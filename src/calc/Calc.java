@@ -15,18 +15,24 @@ public class Calc {
 		System.out.println("Enter two values");
 		int a=i.nextInt();
 		int b=i.nextInt();
+		d=a+b;
+		System.out.println("Sum="+d);
 	}
 	else if(c=='-')
 	{
 		System.out.println("Enter two values");
 		int a=i.nextInt();
 		int b=i.nextInt();
+		d=a-b;
+		System.out.println("Substraction="+d);
 	}
 	else if(c=='*') {
 		
 		System.out.println("Enter two values");
 		int a=i.nextInt();
 		int b=i.nextInt();
+		d=a*b;
+		System.out.println("Multiplication="+d);
 	}
 	else if(c=='/') {
 		
