@@ -19,7 +19,8 @@ public class Calc {
 				break;
 		case 20:System.out.println("20"); 
 				break;
-		case 30:System.out.println("30"); 
+		case "*":       c=a*b;
+				System.out.println("multiplication=" +c); 
 				break;		
 		default:System.out.println("Invalid value entered"); 
 				break;		
