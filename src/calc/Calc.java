@@ -7,23 +7,39 @@ public class Calc {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	Scanner i = new Scanner(System.in); 
-		
+	System.out.println("Enter Operation");
+	char c = i.next().charAt(0); 	
+	if(c=='+')
+	{
+		System.out.println("Enter two values");
 		int a=i.nextInt();
 		int b=i.nextInt();
-		System.out.println("Enter Operater");
-		String g =i.nextLine();
-		int c;
-		switch(g) {
-		case "+":	c=a+b;
-				System.out.println("Addition=" +c); 
-				break;
-		case 20:System.out.println("20"); 
-				break;
-		case "*":       c=a*b;
-				System.out.println("multiplication=" +c); 
-				break;		
-		default:System.out.println("Invalid value entered"); 
-				break;		
 	}
+	else if(c=='-')
+	{
+		System.out.println("Enter two values");
+		int a=i.nextInt();
+		int b=i.nextInt();
+	}
+	else if(c=='*') {
+		
+		System.out.println("Enter two values");
+		int a=i.nextInt();
+		int b=i.nextInt();
+	}
+	else if(c=='/') {
+		
+		System.out.println("Enter two values");
+		int a=i.nextInt();
+		int b=i.nextInt();
+	}
+	else if(c=='%') {
+		
+		System.out.println("Enter two values");
+		int a=i.nextInt();
+		int b=i.nextInt();
+	}
+	
 
+}
 }
